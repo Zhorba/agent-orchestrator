@@ -291,6 +291,16 @@ describe("main.ts daemon lifecycle wiring with controlled I/O", () => {
 		expect(h.status()).toMatchObject({ state: "starting" });
 	});
 
+	it("retains non-Windows orphan replacement after the configured port changes", async () => {
+		const h = setup("linux");
+		h.setMarker(JSON.stringify({ pid: 42, port: 4000, startedAt: "2023-11-14T22:13:20.000Z" }));
+		h.readProcessStartMs.mockResolvedValue(1_699_999_992_000);
+		await h.start();
+		expect(h.readProcessStartMs).toHaveBeenCalledWith(42);
+		expect(h.kill).toHaveBeenCalledWith(-42, "SIGTERM");
+		expect(h.spawn).toHaveBeenCalledOnce();
+	});
+
 	it("finishes replacing a live daemon after a different run-file port times out", async () => {
 		const h = setup("win32");
 		h.setMarker(JSON.stringify({ pid: 42, port: 3001, owner: "app", appRunId: "previous-app" }));
