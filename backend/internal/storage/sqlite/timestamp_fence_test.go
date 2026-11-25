@@ -121,6 +121,9 @@ func TestTimestampRepairTriggerInventory(t *testing.T) {
 	// repair preserves notice state (TestTimestampRepairPreservesReviewDoneNotices).
 	// pr_cdc_update also watches the merge queue columns, which repair never writes.
 	// sessions_cdc_update also watches role_agent, which repair never writes.
+	// chat_attachment_leases_commit_* fire on inserts, or on updates OF text and
+	// delivery_content_json only, so a representation-only timestamp rewrite
+	// never fires them.
 	const reviewed = "a7d31ed1ed830043db6ef2423d82c1659e05c4c1f3594cb3bebde48988c47b9e"
 	if got := fmt.Sprintf("%x", hash.Sum(nil)); got != reviewed {
 		t.Fatalf("timestamp trigger inventory changed; review preservation logic before updating fingerprint: %s", got)
