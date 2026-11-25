@@ -5468,5 +5468,14 @@
 	"backgroundTasks.stale": "已过期",
 	"backgroundTasks.kind.shell": "Shell",
 	"backgroundTasks.kind.other": "后台任务",
-	"backgroundTasks.state.failed": "失败"
+	"backgroundTasks.state.failed": "失败",
+	"quickDetails.open": "打开会话详情",
+	"quickDetails.close": "关闭会话详情",
+	"quickDetails.aria": "会话快速详情",
+	"quickDetails.changes": "更改",
+	"quickDetails.noChanges": "无更改",
+	"quickDetails.filesChanged_one": "{{count}} 个文件",
+	"quickDetails.filesChanged_other": "{{count}} 个文件",
+	"quickDetails.viewAll": "查看全部",
+	"quickDetails.actions": "会话操作"
 }

@@ -5661,5 +5661,15 @@
 	"backgroundTasks.state.failed": "Échec",
 	"backgroundTasks.shells_many": "{{count}} shells sont toujours en cours",
 	"backgroundTasks.agents_many": "{{count}} agents en arrière-plan en cours",
-	"backgroundTasks.tasks_many": "{{count}} tâches en arrière-plan en cours"
+	"backgroundTasks.tasks_many": "{{count}} tâches en arrière-plan en cours",
+	"quickDetails.open": "Ouvrir les détails de la session",
+	"quickDetails.close": "Fermer les détails de la session",
+	"quickDetails.aria": "Détails rapides de la session",
+	"quickDetails.changes": "Modifications",
+	"quickDetails.noChanges": "Aucune modification",
+	"quickDetails.filesChanged_one": "{{count}} fichier",
+	"quickDetails.filesChanged_many": "{{count}} fichiers",
+	"quickDetails.filesChanged_other": "{{count}} fichiers",
+	"quickDetails.viewAll": "Tout afficher",
+	"quickDetails.actions": "Actions de la session"
 }

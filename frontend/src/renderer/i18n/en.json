@@ -5466,5 +5466,14 @@
 	"backgroundTasks.stale": "stale",
 	"backgroundTasks.kind.shell": "Shell",
 	"backgroundTasks.kind.other": "Background task",
-	"backgroundTasks.state.failed": "Failed"
+	"backgroundTasks.state.failed": "Failed",
+	"quickDetails.open": "Open session details",
+	"quickDetails.close": "Close session details",
+	"quickDetails.aria": "Session quick details",
+	"quickDetails.changes": "Changes",
+	"quickDetails.noChanges": "No changes",
+	"quickDetails.filesChanged_one": "{{count}} file",
+	"quickDetails.filesChanged_other": "{{count}} files",
+	"quickDetails.viewAll": "View all",
+	"quickDetails.actions": "Session actions"
 }

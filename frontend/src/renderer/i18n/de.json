@@ -5486,5 +5486,14 @@
 	"backgroundTasks.stale": "veraltet",
 	"backgroundTasks.kind.shell": "Shell",
 	"backgroundTasks.kind.other": "Hintergrundaufgabe",
-	"backgroundTasks.state.failed": "Fehlgeschlagen"
+	"backgroundTasks.state.failed": "Fehlgeschlagen",
+	"quickDetails.open": "Sitzungsdetails öffnen",
+	"quickDetails.close": "Sitzungsdetails schließen",
+	"quickDetails.aria": "Sitzungs-Kurzdetails",
+	"quickDetails.changes": "Änderungen",
+	"quickDetails.noChanges": "Keine Änderungen",
+	"quickDetails.filesChanged_one": "{{count}} Datei",
+	"quickDetails.filesChanged_other": "{{count}} Dateien",
+	"quickDetails.viewAll": "Alle anzeigen",
+	"quickDetails.actions": "Sitzungsaktionen"
 }

@@ -5486,5 +5486,14 @@
 	"backgroundTasks.stale": "古い情報",
 	"backgroundTasks.kind.shell": "シェル",
 	"backgroundTasks.kind.other": "バックグラウンドタスク",
-	"backgroundTasks.state.failed": "失敗"
+	"backgroundTasks.state.failed": "失敗",
+	"quickDetails.open": "セッションの詳細を開く",
+	"quickDetails.close": "セッションの詳細を閉じる",
+	"quickDetails.aria": "セッションのクイック詳細",
+	"quickDetails.changes": "変更",
+	"quickDetails.noChanges": "変更なし",
+	"quickDetails.filesChanged_one": "{{count}}件のファイル",
+	"quickDetails.filesChanged_other": "{{count}}件のファイル",
+	"quickDetails.viewAll": "すべて表示",
+	"quickDetails.actions": "セッション操作"
 }
